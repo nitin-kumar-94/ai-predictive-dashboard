@@ -1,0 +1,43 @@
+﻿.insight-panel {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #667eea;
+}
+
+.insight-header {
+  margin-bottom: 20px;
+}
+
+.insight-header h2 {
+  color: #667eea;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.insight-content {
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #333;
+}
+
+.insight-content p {
+  margin: 0;
+  font-style: italic;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .insight-panel {
+    padding: 20px;
+  }
+
+  .insight-header h2 {
+    font-size: 1.1em;
+  }
+
+  .insight-content {
+    font-size: 1em;
+  }
+}
